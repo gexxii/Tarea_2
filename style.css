@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+    text-align: center;
+}
+
+.text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 2px 5px #000;
+}
+
+.calculadora{
+    background-color: darkseagreen;    
+    width: 400px;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+.visualizador{
+    background-color: cadetblue;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 35px;
+    text-align: right;
+    height: 60px;
+}
+
+.botones{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px 10px;
+}
+
+.calculadora .botones span{
+    background-color: cadetblue;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.calculadora .botones span:hover{
+    background-color: green;
+}
+
+.item0{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.itemIg{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
